@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 586967385c26bf347878bc42c14b3722
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8520899692445254604
+    second: sineffa2_0
+  - first:
+      213: -6167124605117058156
+    second: sineffa2_1
+  - first:
+      213: -2073185301801324931
+    second: sineffa2_2
+  - first:
+      213: -7390111914209451198
+    second: sineffa2_3
+  - first:
+      213: -8636954743555965514
+    second: sineffa2_4
+  - first:
+      213: 3229278249012561482
+    second: sineffa2_5
+  - first:
+      213: 7734740931356934524
+    second: sineffa2_6
+  - first:
+      213: 7461621744961065485
+    second: sineffa2_7
+  - first:
+      213: -6838101268284834818
+    second: sineffa2_8
+  - first:
+      213: 2730100506224444391
+    second: sineffa2_9
+  - first:
+      213: -4381661855811607509
+    second: sineffa2_10
+  - first:
+      213: -68434934751702693
+    second: sineffa2_11
+  - first:
+      213: -583713654792454974
+    second: sineffa2_12
+  - first:
+      213: -6477781476548980201
+    second: sineffa2_13
+  - first:
+      213: -1150795622201893197
+    second: sineffa2_14
+  - first:
+      213: -8367042465415505294
+    second: sineffa2_15
+  - first:
+      213: 9158075717583453661
+    second: sineffa2_16
+  - first:
+      213: -1647641843515323572
+    second: sineffa2_17
+  - first:
+      213: -1310280520900354737
+    second: sineffa2_18
+  - first:
+      213: 8661463697111262001
+    second: sineffa2_19
+  - first:
+      213: 5465675354155289256
+    second: sineffa2_20
+  - first:
+      213: -7440535880965525865
+    second: sineffa2_21
+  - first:
+      213: 758553612057133045
+    second: sineffa2_22
+  - first:
+      213: -731658370645841550
+    second: sineffa2_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sineffa2_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 734
+        width: 183
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc34fe6ef11504670800000000000000
+      internalID: 8520899692445254604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sineffa2_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 683
+        width: 231
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243e9275e5c017990800000000000000
+      internalID: -7390111914209451198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sineffa2_5
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 731
+        width: 190
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a460a414573b0dc20800000000000000
+      internalID: 3229278249012561482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sineffa2_6
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 549
+        width: 533
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71443b85e1575b60800000000000000
+      internalID: 7734740931356934524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sineffa2_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 558
+        width: 333
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d021cb491710d8760800000000000000
+      internalID: 7461621744961065485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sineffa2_9
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 605
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e34f9a12f343e520800000000000000
+      internalID: 2730100506224444391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sineffa2_10
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 605
+        width: 140
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b246876d1c53133c0800000000000000
+      internalID: -4381661855811607509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sineffa2_12
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 531
+        width: 244
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccfc8b068b36e7f0800000000000000
+      internalID: -583713654792454974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sineffa2_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 484
+        width: 225
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd31b4f755081f70800000000000000
+      internalID: 9158075717583453661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sineffa2_20
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 396
+        width: 188
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa8806b6caf9db40800000000000000
+      internalID: 5465675354155289256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sineffa2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 213
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e6084b908edb890800000000000000
+      internalID: -7440535880965525865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sineffa2_23
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 409
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279a6b0a690a8d5f0800000000000000
+      internalID: -731658370645841550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

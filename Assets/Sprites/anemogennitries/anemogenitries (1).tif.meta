@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 6f4a91fdce2751d40914ff9bf2be10d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4836002017503387646
+    second: anemogenitries (1)_0
+  - first:
+      213: 4246917356249832687
+    second: anemogenitries (1)_1
+  - first:
+      213: 1869068885424446835
+    second: anemogenitries (1)_2
+  - first:
+      213: -6024227121067207133
+    second: anemogenitries (1)_3
+  - first:
+      213: 8420381512083968298
+    second: anemogenitries (1)_4
+  - first:
+      213: -932372910090807104
+    second: anemogenitries (1)_5
+  - first:
+      213: 1030862872455527933
+    second: anemogenitries (1)_6
+  - first:
+      213: -7133208810954458852
+    second: anemogenitries (1)_7
+  - first:
+      213: -5573880535270199947
+    second: anemogenitries (1)_8
+  - first:
+      213: 3981498021736487961
+    second: anemogenitries (1)_9
+  - first:
+      213: -233136509816560176
+    second: anemogenitries (1)_10
+  - first:
+      213: -2328500813684873776
+    second: anemogenitries (1)_11
+  - first:
+      213: -2805641146876651161
+    second: anemogenitries (1)_12
+  - first:
+      213: 2293235923735376367
+    second: anemogenitries (1)_13
+  - first:
+      213: 4206086622321022837
+    second: anemogenitries (1)_14
+  - first:
+      213: 277952210073539302
+    second: anemogenitries (1)_15
+  - first:
+      213: 1672530095554783361
+    second: anemogenitries (1)_16
+  - first:
+      213: 861982132780840385
+    second: anemogenitries (1)_17
+  - first:
+      213: -5165837943478849914
+    second: anemogenitries (1)_18
+  - first:
+      213: -6437026012861528673
+    second: anemogenitries (1)_19
+  - first:
+      213: -40691832001917824
+    second: anemogenitries (1)_20
+  - first:
+      213: 606312995141940789
+    second: anemogenitries (1)_21
+  - first:
+      213: -4859853427234878487
+    second: anemogenitries (1)_22
+  - first:
+      213: 7788537503436709768
+    second: anemogenitries (1)_23
+  - first:
+      213: -2769651596019069503
+    second: anemogenitries (1)_24
+  - first:
+      213: 2208716546121304013
+    second: anemogenitries (1)_25
+  - first:
+      213: -778053601129942215
+    second: anemogenitries (1)_26
+  - first:
+      213: 966030228257555398
+    second: anemogenitries (1)_27
+  - first:
+      213: -7249531447841770869
+    second: anemogenitries (1)_28
+  - first:
+      213: 1879377697937671779
+    second: anemogenitries (1)_29
+  - first:
+      213: -5955097597656941601
+    second: anemogenitries (1)_30
+  - first:
+      213: 2017006787085524334
+    second: anemogenitries (1)_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anemogenitries (1)_0
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 232
+        width: 174
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20063ad89c113ecb0800000000000000
+      internalID: -4836002017503387646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anemogenitries (1)_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 230
+        width: 214
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d9570af3440f910800000000000000
+      internalID: 1869068885424446835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anemogenitries (1)_1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 235
+        width: 164
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec56b995d410fa30800000000000000
+      internalID: 4246917356249832687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

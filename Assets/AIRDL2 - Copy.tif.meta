@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 82ee08190d5b89e4886b4025205bea6e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3382322395199680195
+    second: AIRDL2 - Copy_0
+  - first:
+      213: -5090715242872679506
+    second: AIRDL2 - Copy_1
+  - first:
+      213: -6578216215341364847
+    second: AIRDL2 - Copy_2
+  - first:
+      213: 8432022203615624767
+    second: AIRDL2 - Copy_3
+  - first:
+      213: 8848280280249039945
+    second: AIRDL2 - Copy_4
+  - first:
+      213: -4855636419305101253
+    second: AIRDL2 - Copy_5
+  - first:
+      213: 5602491297674040164
+    second: AIRDL2 - Copy_6
+  - first:
+      213: -2755112811231404905
+    second: AIRDL2 - Copy_7
+  - first:
+      213: -6350771503244587992
+    second: AIRDL2 - Copy_8
+  - first:
+      213: 6224111063917020700
+    second: AIRDL2 - Copy_9
+  - first:
+      213: -7110641319189128662
+    second: AIRDL2 - Copy_10
+  - first:
+      213: -5464073849753977502
+    second: AIRDL2 - Copy_11
+  - first:
+      213: -1176999287738336495
+    second: AIRDL2 - Copy_12
+  - first:
+      213: -5178055616201719571
+    second: AIRDL2 - Copy_13
+  - first:
+      213: -1312369238749612697
+    second: AIRDL2 - Copy_14
+  - first:
+      213: 4711258839997114753
+    second: AIRDL2 - Copy_15
+  - first:
+      213: 2143310990925831660
+    second: AIRDL2 - Copy_16
+  - first:
+      213: -7835323768838950445
+    second: AIRDL2 - Copy_17
+  - first:
+      213: -8912176376366726929
+    second: AIRDL2 - Copy_18
+  - first:
+      213: -5176956709625953293
+    second: AIRDL2 - Copy_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AIRDL2 - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 428
+        width: 654
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cea9b15c4c60fe20800000000000000
+      internalID: 3382322395199680195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
