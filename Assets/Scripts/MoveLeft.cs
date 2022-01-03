@@ -25,7 +25,7 @@ public class MoveLeft : MonoBehaviour
         {
             if((transform.position.x < GameManager.bottomLeft.x - vaccinewidth))
             {
-                Destroy(gameObject);
+                //Destroy(gameObject);
             }
         }
     }

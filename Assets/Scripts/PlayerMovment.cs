@@ -42,7 +42,7 @@ public class PlayerMovment : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name=="Oil")
+        if (col.gameObject.tag=="Fuel")
         {
             Destroy(col.gameObject);
         }

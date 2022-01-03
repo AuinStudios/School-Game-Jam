@@ -20,21 +20,22 @@ public class PlayerFuel : MonoBehaviour
     public void Refill(int amount)
     {
         currentFuel += amount;
+        if(currentFuel > maxFuel)
+            currentFuel = maxFuel;
     }
 
     public void NoFuel(int amount)
     {
-        if (WaitSec > 0)
+        if (currentSec > 0)
         {
-            WaitSec -= Time.deltaTime;
-
+            currentSec -= Time.deltaTime;
         }
         else
         {
             if (currentFuel > 0)
             {
                 currentFuel -= amount;
-                WaitSec = currentSec;
+                currentSec = WaitSec;
             }
         }
     }
