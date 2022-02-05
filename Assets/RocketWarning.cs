@@ -3,55 +3,75 @@ using UnityEngine;
 
 public class RocketWarning : MonoBehaviour
 {
-    public GameObject warning;
-     private int i;
+    public GameObject JetPrefab;
+    private GameObject warning;
+    private SpriteRenderer colorRender;
+    private float TimeUntllAnother = 0;
+    private PlayerHealth health;
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-
-        StartCoroutine(spawn());
+        health = gameObject.GetComponent<PlayerHealth>();
+        warning = GameObject.Find("warning");
+        colorRender = warning.GetComponent<SpriteRenderer>();
+        warning.SetActive(false);
     }
-
-    public IEnumerator spawn()
+    private void Update()
     {
-
-       i = 0;
-        Camera.main.transform.GetChild(0).gameObject.SetActive(true);
-        GameObject.Find("warning").transform.position = new Vector2(GameObject.Find("warning").transform.position.x, Random.Range(-4, 4));
-
-        while(i < 30)
+        if(TimeUntllAnother <= 30f)
+        {
+            TimeUntllAnother += 3 * Time.deltaTime;
+        }
+        else
+        {
+            StartCoroutine(spawn());
+            TimeUntllAnother = 0;
+        }
+    }
+    private IEnumerator spawn()
+    {
+        warning.SetActive(true);
+        WaitForSeconds waitspawn = new WaitForSeconds(0.1f);
+       int i = 0;
+       // warning.SetActive(true);
+        warning.transform.position = new Vector2(warning.transform.position.x, Random.Range(-4, 4));
+        while (i < 30)
         {
 
             Vector2 scale = new Vector2(0.2909483f, 0.2909483f);
             Vector2 oldscale = new Vector2(0.25567f, 0.25567f);
-            if (GameObject.Find("warning").GetComponent<Transform>().localScale.x >= 0.2809483f)
+            if (warning.transform.localScale.x >= 0.2809483f)
             {
-                GameObject.Find("warning").GetComponent<SpriteRenderer>().color = Color.Lerp(GameObject.Find("warning").GetComponent<SpriteRenderer>().color, Color.white, 10f * Time.fixedDeltaTime);
+                colorRender.color = Color.Lerp(colorRender.color, Color.white, 10f * Time.fixedDeltaTime);
 
-                GameObject.Find("warning").GetComponent<Transform>().localScale = Vector2.Lerp(GameObject.Find("warning").GetComponent<Transform>().localScale, oldscale, 15f  * Time.fixedDeltaTime);
+                warning.transform.localScale = Vector2.Lerp(warning.transform.localScale, oldscale, 15f * Time.fixedDeltaTime);
             }
-            else 
+            else
             {
-                GameObject.Find("warning").GetComponent<SpriteRenderer>().color = Color.Lerp(GameObject.Find("warning").GetComponent<SpriteRenderer>().color, Color.red, 10f * Time.fixedDeltaTime);
+                colorRender.color = Color.Lerp(colorRender.color, Color.red, 10f * Time.fixedDeltaTime);
 
 
-                 GameObject.Find("warning").GetComponent<Transform>().localScale = Vector2.Lerp(GameObject.Find("warning").GetComponent<Transform>().localScale, scale, 15f * Time.fixedDeltaTime);
+
+                warning.transform.localScale = Vector2.Lerp(warning.transform.localScale, scale, 15f * Time.fixedDeltaTime);
             }
-             
-            yield return new WaitForSeconds(0.1f);
-           i++;
-        }
-       
-       Vector2 pos = new Vector2(GameObject.Find("warning").transform.position.x + 10, GameObject.Find("warning").transform.position.y);
-         GameObject.Find("warning").gameObject.SetActive(false);
-      Instantiate(warning, pos, warning.transform.rotation );
-        while(i < 35)
-        {
-            Vector2 speed = new Vector2(-30, 0);
-            GameObject.FindGameObjectWithTag("Rocket").GetComponent<Rigidbody2D>().velocity = speed;
-            yield return new WaitForSeconds(0.4f);
+
+            yield return waitspawn;
             i++;
         }
-       Destroy( GameObject.FindGameObjectWithTag("Rocket"));
+        WaitForSeconds wait = new WaitForSeconds(0.4f);
+        Vector2 pos = new Vector2(warning.transform.position.x + 10, warning.transform.position.y);
+        warning.gameObject.SetActive(false);
+        Instantiate(JetPrefab, pos, JetPrefab.transform.rotation);
+        GameObject jet = GameObject.FindGameObjectWithTag("Rocket");
+        Rigidbody2D rigijet = jet.GetComponent<Rigidbody2D>();
+        jet.GetComponent<birdDamage>().playerhealth = health;
+        Vector2 speed = new Vector2(-30, 0);
+        while (i < 50)
+        {
+            rigijet.velocity = speed;
+            yield return wait;
+            i++;
+        }
+        Destroy(jet);
     }
 }

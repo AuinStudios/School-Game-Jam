@@ -50,6 +50,12 @@ TagManager:
   - name: CLOUDS
     uniqueID: 4119189609
     locked: 0
+  - name: parathiro
+    uniqueID: 2149843101
+    locked: 0
+  - name: bird
+    uniqueID: 3287043693
+    locked: 0
   - name: player
     uniqueID: 3228874751
     locked: 0

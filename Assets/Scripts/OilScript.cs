@@ -10,8 +10,9 @@ public class OilScript : MonoBehaviour
     public GameObject Oil; 
 
     // Start is called before the first frame update
-    void OnTriggerEnter2D(Collider2D col)
+     public void OnTriggerEnter2D(Collider2D col)
     {
-        playerFuel.Refill(refill);
+		if(col.gameObject.tag == "Player")	
+			playerFuel.Refill(refill);
     }
 }

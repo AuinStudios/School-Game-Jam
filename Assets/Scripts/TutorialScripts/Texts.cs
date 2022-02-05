@@ -1,17 +1,19 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class Texts : MonoBehaviour
 {
+    public PlayerFuel playerFuel;
+	public Text textElement;
     private int i;
     private float WaitSec;
     private float currentSec;
-    public Text textElement;
     private string current;
-    public PlayerFuel playerFuel;
+	private int scene;
     private string[ ] textValue = new string[]{
         "Welcome to the tutorial!!",                                                                                            //0
         "By pressing WASD you can move the balloon",                                                                            //1
@@ -35,21 +37,7 @@ public class Texts : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(i<4){
-            Time.timeScale=1; 
-            playerFuel.Refill(1000);
-            Speech();
-            playerFuel.Refill(1000);
-            if(i==4)
-                playerFuel.currentFuel=playerFuel.maxFuel;
-        }
-        else if(i<5){
-            Time.timeScale=1; 
-            Speech();
-        }
-        else{
-            Speech();
-        }
+		Speech();
     }
     private IEnumerator speechtypewriter()
     {
@@ -83,10 +71,9 @@ public class Texts : MonoBehaviour
                 i++;
                 StartCoroutine(speechtypewriter());
                         
-            }
-          
-            
-            
+			}
+       
         }
     }
 }
+*/

@@ -40,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
             {
                 Time.timeScale = 0;
                 gameoverpanel.SetActive(true);
+                
             }
         }
     }

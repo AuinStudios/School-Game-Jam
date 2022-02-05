@@ -19,10 +19,12 @@ public class PlayerFuel : MonoBehaviour
 
     public void Refill(int amount)
     {
+		
         currentFuel += amount;
         if(currentFuel > maxFuel)
             currentFuel = maxFuel;
-    }
+		
+	}
 
     public void NoFuel(int amount)
     {

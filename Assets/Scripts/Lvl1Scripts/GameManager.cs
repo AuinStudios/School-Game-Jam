@@ -8,7 +8,8 @@ public class GameManager : MonoBehaviour
 {
     public  static Vector2 bottomLeft;
     public GameObject gameoverpanel;
-
+    public PlayerHealth playerhealth;
+    public GameObject Youwin;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,7 @@ public class GameManager : MonoBehaviour
     public void onreplaybtnpressed()
     {
         
-        SceneManager.LoadScene("lvl1scene");
+        SceneManager.LoadScene("lvl1");
         gameoverpanel.SetActive(false);
         
     }
@@ -32,11 +33,47 @@ public class GameManager : MonoBehaviour
         gameoverpanel.SetActive(false);
     }
 
+    public void OnReplayBtn1pressed()
+    {
+        SceneManager.LoadScene("tuto"); 
+        gameoverpanel.SetActive(false);
+    }
+
+    public void OnReplayBtn2pressed()
+    {
+        SceneManager.LoadScene("lvl2");
+		gameoverpanel.SetActive(false);
+    }
+	
+	public void OnReplayBtn3pressed()
+	{
+		SceneManager.LoadScene("lvl3");
+		gameoverpanel.SetActive(false);
+	}
+
     // Update is called once per frame
     void Update()
     {
-        
+        if( playerhealth.currentHealth == 0)
+        {
+            Time.timeScale = 0;
+            gameoverpanel.SetActive(true);
+        }
     }
-
+    public void OnNextLvl1btnpressed()
+    {
+        SceneManager.LoadScene("lvl1");
+        Youwin.SetActive(false);
+    }
+    public void OnNextLvl2BtnPressed()
+    {
+        SceneManager.LoadScene("lvl2");
+        Youwin.SetActive(false);
+    }
+    public void OnNextLvl3btnpressed()
+    {
+        SceneManager.LoadScene("lvl3");
+        Youwin.SetActive(false);
+    }
     
 }

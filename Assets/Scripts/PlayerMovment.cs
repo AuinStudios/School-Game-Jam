@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class PlayerMovment : MonoBehaviour
 {
+    [SerializeField] private SkinManager skinManager;
     public PlayerFuel playerFuel;
     public float movespeed;
     public Rigidbody2D rb;
     private Vector2 moveDirection;
+    
+    void Start()
+    {
+        GetComponent<SpriteRenderer>().sprite = skinManager.GetSelectedSkin().sprite;
+    }
 
     // Update is called once per frame
     void Update()
