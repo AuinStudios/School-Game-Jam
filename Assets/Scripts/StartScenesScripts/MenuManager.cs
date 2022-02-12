@@ -18,6 +18,16 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        /*if(SceneManager.GetActiveScene()== SceneManager.GetSceneByName("StartScene"))
+        {
+            AudioManager.audiomanager.Play("MenuSong");
+        }
+        else
+        {
+            Destroy(gameObject);
+           AudioManager.audiomanager.Play("None");
+        }*/
+        
         coins = PlayerPrefs.GetInt("Coins");
         Time.timeScale = 1;
     }
@@ -25,6 +35,7 @@ public class MenuManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         scoreText.text = "" + coins;
         if(Input.GetKey("c"))
             PlayerPrefs.DeleteAll();
@@ -32,12 +43,12 @@ public class MenuManager : MonoBehaviour
 
     public void AddCoins()
     {
-        coins += 150;
+        coins += 50;
     }
 
     public void addcoinscoinsprite()
     {
-        coins+=5;
+        coins+=3;
     }
 
     public void OnLevel1btnPressed()
@@ -103,6 +114,16 @@ public class MenuManager : MonoBehaviour
     public void collidercoin()
     {
         PlayerPrefs.SetInt("Coins", coins);
+    }
+
+    public void OnLvl4btnpressed()
+    {
+        SceneManager.LoadScene("lvl4");
+    }
+
+    public void OnLvl5btnpressed()
+    {
+        SceneManager.LoadScene("lvl5");
     }
 
 

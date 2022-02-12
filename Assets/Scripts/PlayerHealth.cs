@@ -17,6 +17,16 @@ public class PlayerHealth : MonoBehaviour
         currentSec = WaitSec;
     }
 
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Rocket")
+            {
+                currentHealth = 0;
+                gameoverpanel.SetActive(true);
+                Time.timeScale = 0;
+            }
+    }
+
     public void Damage(int amount)
     {
         currentHealth -= amount;
@@ -36,11 +46,15 @@ public class PlayerHealth : MonoBehaviour
                 currentHealth -= amount;
                 WaitSec = currentSec;
             }
-            else if (currentHealth == 0)
+            else if (currentHealth <= 0)
             {
                 Time.timeScale = 0;
-                gameoverpanel.SetActive(true);
-                
+                gameoverpanel.SetActive(true);   
+            }
+            else if(currentHealth == 0)
+            {
+                Time.timeScale = 0;
+                gameoverpanel.SetActive(true);  
             }
         }
     }

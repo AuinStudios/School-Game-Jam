@@ -13,6 +13,6 @@ public class OilScript : MonoBehaviour
      public void OnTriggerEnter2D(Collider2D col)
     {
 		if(col.gameObject.tag == "Player")	
-			playerFuel.Refill(refill);
+			playerFuel.Refill(3);
     }
 }

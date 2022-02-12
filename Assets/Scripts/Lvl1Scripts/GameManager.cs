@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameoverpanel;
     public PlayerHealth playerhealth;
     public GameObject Youwin;
+    public GameObject pausedpanel;
     // Start is called before the first frame update
     void Start()
     {
@@ -54,7 +55,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if( playerhealth.currentHealth == 0)
+        if( playerhealth.currentHealth <= 0)
         {
             Time.timeScale = 0;
             gameoverpanel.SetActive(true);
@@ -74,6 +75,24 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("lvl3");
         Youwin.SetActive(false);
+    }
+
+    public void OnReplay4Btnpressed()
+    {
+        SceneManager.LoadScene("lvl4");
+        gameoverpanel.SetActive(false);
+    }
+
+    public void OnReplay5BtnPressed()
+    {
+        SceneManager.LoadScene("lvl5");
+        gameoverpanel.SetActive(false);
+    }
+
+    public void OnResumeBtnPressed()
+    {
+        pausedpanel.SetActive(false);
+        Time.timeScale = 1;
     }
     
 }
