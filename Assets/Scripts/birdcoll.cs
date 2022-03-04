@@ -22,4 +22,11 @@ public class birdcoll : MonoBehaviour
             Destroy(col.gameObject);
         }
     }
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "bird")
+        {
+            Destroy(other.gameObject);
+        }
+    }
 }

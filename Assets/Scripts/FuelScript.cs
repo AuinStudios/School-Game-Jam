@@ -7,11 +7,13 @@ public class FuelScript : MonoBehaviour
 {
     public PlayerFuel playerFuel;
     public Image UISprite;
-    private Slider Fuel;
+    public Slider Fuel;
     // Start is called before the first frame update
     void Start()
     {
         Fuel = GetComponent<Slider>();
+        //Fuel.maxValue=playerFuel.maxFuel;
+        Fuel.value=Fuel.maxValue;
     }
 
     void Update()
@@ -29,7 +31,8 @@ public class FuelScript : MonoBehaviour
         {
             playerFuel.NoFuel(1);
         }
-        float fillValue = playerFuel.currentFuel * Fuel.maxValue / playerFuel.maxFuel;
-        Fuel.value = fillValue;
+        //float fillValue = playerFuel.currentFuel * Fuel.maxValue / playerFuel.maxFuel;
+        //Fuel.value = fillValue;
+        Fuel.value=playerFuel.currentFuel;
     }
 }

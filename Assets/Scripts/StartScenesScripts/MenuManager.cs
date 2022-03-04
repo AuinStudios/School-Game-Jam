@@ -125,6 +125,15 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("lvl5");
     }
+    public void Onlvl6btnpressed()
+    {
+	SceneManager.LoadScene("lvl6");
+    }
+
+    public void OnLvl7btnPressed()
+    {
+        SceneManager.LoadScene("lvl7");
+    }
 
 
 }

@@ -95,4 +95,16 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
     }
     
+    public void Onreplay6btnpressed()
+    {
+    SceneManager.LoadScene("lvl6");
+    gameoverpanel.SetActive(false);
+    }
+
+    public void OnReplay7btnpressed()
+    {
+        SceneManager.LoadScene("lvl7");
+        gameoverpanel.SetActive(false);
+    }
+    
 }

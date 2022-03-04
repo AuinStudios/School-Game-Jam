@@ -12,16 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f387444e7debfb4e9d4d8728ad4ea60, type: 3}
   m_Name: SkinManager
   m_EditorClassIdentifier: 
+  skinbool: 1
   skins:
   - cost: 0
     sprite: {fileID: -1202307947198530278, guid: 7084e42b1badc8c40b6413bd9b55b940, type: 3}
-  - cost: 250
+  - cost: 150
     sprite: {fileID: -6390270436380426138, guid: 7084e42b1badc8c40b6413bd9b55b940, type: 3}
-  - cost: 500
+  - cost: 300
     sprite: {fileID: -1233390589296403333, guid: 7084e42b1badc8c40b6413bd9b55b940, type: 3}
-  - cost: 750
+  - cost: 450
     sprite: {fileID: -6195318456498275956, guid: 7084e42b1badc8c40b6413bd9b55b940, type: 3}
-  - cost: 900
+  - cost: 600
     sprite: {fileID: -8260963041534198774, guid: 7084e42b1badc8c40b6413bd9b55b940, type: 3}
-  - cost: 1150
+  - cost: 750
     sprite: {fileID: 4630768282584024012, guid: 7084e42b1badc8c40b6413bd9b55b940, type: 3}
+  - cost: 900
+    sprite: {fileID: 7525150567440806268, guid: cb487ee27bad7154a8ad99d380ae1e1a, type: 3}
+  - cost: 1050
+    sprite: {fileID: -2271177687478349941, guid: a2074270a673dd142a836cbbfc565e1c, type: 3}
+  - cost: 1200
+    sprite: {fileID: -3572320525126470764, guid: 699ac7e2c8d4e4240b730d0a3bcc4b92, type: 3}
+  trails: []

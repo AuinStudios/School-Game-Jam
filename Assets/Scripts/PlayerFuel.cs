@@ -5,17 +5,23 @@ using UnityEngine.UI;
 
 public class PlayerFuel : MonoBehaviour
 {
+    public FuelScript script;
     public int maxFuel;
-    public int currentFuel;
+    public int currentFuel = 15;
     public float WaitSec;
     public float currentSec;
+    
 
     // Start is called before the first frame update
     void Start()
     {
+        //maxFuel=PlayerPrefs.GetInt("Fuel");
         currentFuel = maxFuel;
         currentSec = WaitSec;
+        script.Fuel.maxValue=maxFuel;
     }
+
+   
 
     public void Refill(int amount)
     {

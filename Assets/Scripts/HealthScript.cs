@@ -9,12 +9,13 @@ public class HealthScript : MonoBehaviour
     public PlayerFuel playerFuel;
     public PlayerHealth playerHealth;
     public Image UISprite;
-    private Slider Health;
+    public Slider Health;
 
     // Start is called before the first frame update
     void Start()
     {
         Health = GetComponent<Slider>();
+        Health.value=Health.maxValue;
     }
 
     // Update is called once per frame
@@ -28,7 +29,8 @@ public class HealthScript : MonoBehaviour
         {
             UISprite.enabled = true;
         }
-        float fillValue = playerHealth.currentHealth * Health.maxValue /playerHealth.maxHealth;
+        //float fillValue = playerHealth.currentHealth * Health.maxValue /playerHealth.maxHealth;
+        float fillValue=playerHealth.currentHealth;
         if (playerFuel.currentFuel == 0)
         {
             playerHealth.NoHealth(1);
@@ -42,5 +44,6 @@ public class HealthScript : MonoBehaviour
             UISprite.color = Color.green;
         }
         Health.value = fillValue;
+        //Health.value=playerHealth.currentHealth;
     }
 }

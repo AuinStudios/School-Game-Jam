@@ -1,12 +1,12 @@
-﻿/*using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CoinScript : MonoBehaviour
 {
-   [SerializeField] private Text scoreText;
-     private int coins;
+  [SerializeField] private Text scoreText;
+  private int coins;
 
   void Start()
   {
@@ -17,4 +17,4 @@ public class CoinScript : MonoBehaviour
   void Update() => scoreText.text = "" + coins;
 
   public void AddCoins() => coins += 5;
-}*/
+}

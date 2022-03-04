@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1787716118977104720}
   m_Layer: 0
   m_Name: stilos (1)_0
-  m_TagString: Untagged
+  m_TagString: stillos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1066092545
-  m_SortingLayer: 5
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1163070935185439581, guid: 8d69c547875b21f43808fd0b7c8699e4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -19,6 +19,10 @@ public class PlayerMovment : MonoBehaviour
     void Update()
     {
         ProcessInputes();
+        if(Input.GetKey("w")||Input.GetKey(KeyCode.UpArrow))
+            rb.gravityScale = 2.8f;
+        else
+            rb.gravityScale = 4f;
     }
 
     void FixedUpdate()
@@ -30,12 +34,28 @@ public class PlayerMovment : MonoBehaviour
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
-        if (playerFuel.currentFuel != 0)
+        if(playerFuel.currentFuel != 0)
         {
             moveDirection = new Vector2(moveX, moveY).normalized;
         }
+        /*else if(playerFuel.currentFuel <= 10)
+        {
+            movespeed = 2.75f;
+            moveDirection = new Vector2(moveX, moveY).normalized;
+        }
+        else if(playerFuel.currentFuel >= 5 && playerFuel.currentFuel <= 10)
+        {
+            movespeed = 2.5f;
+            moveDirection = new Vector2(moveX, moveY).normalized;
+        }
+        else if(playerFuel.currentFuel > 1 && playerFuel.currentFuel < 5)
+        {
+            movespeed = 2.25f;
+            moveDirection = new Vector2(moveX, moveY).normalized;
+        }*/
         else
         {
+           // movespeed = 2.0f;
             moveY = 0;
             moveDirection = new Vector2(moveX, moveY).normalized;
         }
